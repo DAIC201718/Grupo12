@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gpio -g mode 18 in && gpio -g mode 18 up
+gpio -g read 18
+
