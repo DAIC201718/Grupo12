@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gpio -g mode 23 in && gpio -g mode 23 up 
+gpio -g read 23
+
+
